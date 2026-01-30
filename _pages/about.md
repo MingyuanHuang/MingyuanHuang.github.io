@@ -9,9 +9,10 @@ redirect_from:
 
 ## About Me
 
-I am a PhD student in Computer Science at The Hong Kong University of Science and Technology (HKUST).
+I am a PhD student in Computer Science at The Hong Kong University of Science and Technology (HKUST), advised by [Prof. Shuai Wang](https://www.cse.ust.hk/~shuaiw/).
 My research focuses on smart contract security and blockchain systems, with an emphasis on identifying real-world attacks and systematically analyzing their underlying mechanisms.
 
+Previously, I received my MPhil degree in Software Engineering from Sun Yat-sen University, where I was advised by Prof. Zibin Zheng (IEEE Fellow).
 I am particularly interested in large-scale empirical analysis of on-chain data, cross-contract interactions, and security assumptions that break down in emerging blockchain paradigms such as smart accounts and contract upgrade mechanisms.
 
 ## Research Interests
