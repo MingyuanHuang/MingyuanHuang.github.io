@@ -39,4 +39,4 @@ Academic research training in security and software engineering.
 ## Contact
 
 Email: mhuangbd@connect.ust.hk  
-Google Scholar: https://scholar.google.com/citations?user=jh66SjMAAAAJ
+
