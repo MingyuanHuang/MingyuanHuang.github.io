@@ -19,7 +19,7 @@ repository               : "academicpages/academicpages.github.io"
 # Site Author
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Mingyuan Huang"
   pronouns         :
   bio              : "PhD student at HKUST. My research focuses on smart contract security, blockchain attacks, and large-scale empirical analysis of on-chain systems."
