@@ -12,9 +12,9 @@ title                    : "Mingyuan Huang"
 title_separator          : "-"
 name                     : &name "Mingyuan Huang"
 description              : &description "PhD student in Computer Science at HKUST, focusing on smart contract and blockchain security."
-url                      : https://academicpages.github.io
+url                      : https://mingyuanhuang.github.io/
 baseurl                  : ""
-repository               : "academicpages/academicpages.github.io"
+repository               : "MingyuanHuang/MingyuanHuang.github.io"
 
 # Site Author
 author:
