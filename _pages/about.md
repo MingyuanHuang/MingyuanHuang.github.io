@@ -15,7 +15,7 @@ My research focuses on smart contract security and blockchain systems, with an e
 Previously, I received my MPhil degree in Software Engineering from Sun Yat-sen University, where I was advised by Prof. Zibin Zheng (IEEE Fellow).
 I am particularly interested in large-scale empirical analysis of on-chain data, cross-contract interactions, and security assumptions that break down in emerging blockchain paradigms such as smart accounts and contract upgrade mechanisms.
 
-Research Interests: Smart contract security, software engineering
+Research Interests: Smart Contract Security, Software Engineering
 
 ## Selected Publications
 
