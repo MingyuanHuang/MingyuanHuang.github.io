@@ -26,3 +26,13 @@ architecture, trusted execution services, zero-knowledge proofs, private-key
 protection, and safe capital deployment. The [thread introduction](https://x.com/ethereumhkhub/status/2056703874233495555)
 identifies the meetup's focus as AI agents in Web3. The News entry uses May 2026
 as the recap month; it does not claim May 19 was the event date.
+
+## Sun Yat-sen University centenary recognition
+
+The owner supplied the recognition “中山大学百年校庆百名优秀学子” and its
+[WeChat feature](https://mp.weixin.qq.com/s?__biz=MzA4MTI2NjMyMQ==&mid=2651104642&idx=1&sn=238dbb4dcfe9baee48824a0c1604beeb).
+The article body was not accessible during this update. The English description
+“100 Outstanding Students, Sun Yat-sen University Centenary” translates the
+owner-provided name; it is not presented as an independently verified official
+English award title. No unverified award date is added. Tracking parameters are
+omitted from the public link. Both homepage and CV use the shared awards include.
