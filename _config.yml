@@ -12,7 +12,7 @@ title                    : "Mingyuan Huang"
 title_separator          : "-"
 name                     : &name "Mingyuan Huang"
 description              : &description "PhD student in Computer Science at HKUST, focusing on smart contract and blockchain security."
-url                      : https://mingyuanhuang.github.io/
+url                      : https://mingyuanhuang.github.io
 baseurl                  : ""
 repository               : "MingyuanHuang/MingyuanHuang.github.io"
 
@@ -40,7 +40,7 @@ author:
   bitbucket        :
   codepen          :
   dribbble         :
-  github           :
+  github           : "MingyuanHuang"
   kaggle           :
   stackoverflow    :
 
@@ -74,7 +74,7 @@ author:
 teaser                   :
 breadcrumbs              : false
 words_per_minute         : 160
-future                   : true
+future                   : false
 read_more                : "disabled"
 talkmap_link             : false
 comments:
@@ -104,7 +104,7 @@ staticman:
       options:
         format           : "iso8601"
 atom_feed:
-  hide                   : false
+  hide                   : true
   path                   :
 
 # SEO Related
@@ -128,7 +128,7 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google-universal"
+  provider               :
   google:
     tracking_id          :
 
@@ -138,6 +138,33 @@ include:
   - _pages
   - files
 exclude:
+  - _posts
+  - _portfolio
+  - _talks
+  - _teaching
+  - markdown_generator
+  - talkmap
+  - talkmap.py
+  - talkmap.ipynb
+  - scripts
+  - Gemfile.lock
+  - package-lock.json
+  - README.md
+  - CONTRIBUTING.md
+  - docs
+  - _pages/markdown.md
+  - _pages/page-archive.html
+  - _pages/talkmap.html
+  - _pages/year-archive.html
+  - _pages/tag-archive.html
+  - _pages/category-archive.html
+  - _pages/terms.md
+  - _pages/non-menu-page.md
+  - _pages/teaching.html
+  - _pages/talks.html
+  - _pages/archive-layout-with-content.md
+  - _pages/collection-archive.html
+  - _pages/portfolio.html
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
@@ -209,8 +236,8 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
-      share: true
+      comments: false
+      share: false
       related: true
   - scope:
       path: ""
@@ -224,23 +251,23 @@ defaults:
   #   values:
   #     layout: single
   #     author_profile: true
-  #     share: true
-  #     comments: true
+  #     share: false
+  #     comments: false
   - scope:
       path: ""
       type: publications
     values:
       layout: single
       author_profile: true
-      share: true
-      comments: true
+      share: false
+      comments: false
   # - scope:
   #     path: ""
   #     type: portfolio
   #   values:
   #     layout: single
   #     author_profile: true
-  #     share: true
+  #     share: false
   #     comment: true
   # - scope:
   #     path: ""
@@ -248,7 +275,7 @@ defaults:
   #   values:
   #     layout: talk
   #     author_profile: true
-  #     share: true
+  #     share: false
 
 # Sass/SCSS
 sass:

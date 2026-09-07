@@ -1,12 +1,20 @@
 ---
 title: "Defending Data Poisoning Attack via Trusted Platform Module and Blockchain Oracle"
-collection: publications
-permalink: /publication/2022-05-01-defending-data-poisoning
-excerpt: "This paper proposes a defense against data poisoning attacks by combining trusted platform modules with blockchain-based oracles."
-date: 2022-05-01
-venue: "IEEE International Conference on Communications (ICC)"
-paperurl: ""
-citation: "Huang, M., Cao, S., Li, X., Huang, K., & Zhang, X. (2022). \"Defending Data Poisoning Attack via Trusted Platform Module and Blockchain Oracle.\" <i>IEEE International Conference on Communications (ICC)</i>."
+collection: "publications"
+permalink: "/publication/2022-05-01-defending-data-poisoning/"
+redirect_from: ["/publication/2022-05-01-defending-data-poisoning.html"]
+date: "2022-05-16"
+year: 2022
+venue: "IEEE International Conference on Communications"
+venue_short: "ICC 2022"
+authors: ["Mingyuan Huang", "Sheng Cao", "Xiong Li", "Ke Huang", "Xiaosong Zhang"]
+paperurl: "https://doi.org/10.1109/ICC45855.2022.9838252"
+excerpt: "A defense against data poisoning that combines trusted platform modules with blockchain oracles."
+selected: false
+doi: "10.1109/ICC45855.2022.9838252"
+bibtex: "@inproceedings{huang2022defendingdatapoisoning,\n  title = {Defending Data Poisoning Attack via Trusted Platform Module and Blockchain Oracle},\n  author = {Mingyuan Huang and Sheng Cao and Xiong Li and Ke Huang and Xiaosong Zhang},\n  booktitle = {IEEE International Conference on Communications},\n  year = {2022},\n  url = {https://doi.org/10.1109/ICC45855.2022.9838252},\n  doi = {10.1109/ICC45855.2022.9838252}\n}"
 ---
 
-We propose a defense framework against data poisoning attacks by leveraging trusted platform modules (TPMs) and blockchain-based oracle mechanisms.
+{% include publication-resources.html post=page %}
+
+A defense against data poisoning that combines trusted platform modules with blockchain oracles.

@@ -1,0 +1,6 @@
+<article class="publication">
+  <p class="publication-venue">{{ include.post.venue_short }}</p>
+  <h3><a href="{{ include.post.url | relative_url }}">{{ include.post.title }}</a></h3>
+  {% include publication-resources.html post=include.post %}
+  {% unless include.compact %}<p class="publication-summary">{{ include.post.excerpt }}</p>{% endunless %}
+</article>

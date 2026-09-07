@@ -1,0 +1,8 @@
+{% assign pub = include.post %}
+<p class="publication-authors">{% for name in pub.authors %}{% if name == site.author.name %}<strong>{{ name }}</strong>{% else %}{{ name }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
+<div class="publication-links">
+  <a href="{{ pub.paperurl }}">Paper <span aria-hidden="true">↗</span></a>
+  {% if pub.pdf %}<a href="{{ pub.pdf }}">PDF <span aria-hidden="true">↗</span></a>{% endif %}
+  {% if pub.artifact %}<a href="{{ pub.artifact }}">Code &amp; data <span aria-hidden="true">↗</span></a>{% endif %}
+  <details class="bibtex"><summary>BibTeX</summary><pre><code>{{ pub.bibtex | escape }}</code></pre></details>
+</div>

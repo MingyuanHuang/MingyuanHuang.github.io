@@ -1,12 +1,20 @@
 ---
 title: "Revealing Hidden Threats: An Empirical Study of Library Misuse in Smart Contracts"
-collection: publications
-permalink: /publication/2024-05-01-revealing-hidden-threats
-excerpt: "An empirical study of smart contract library misuse based on large-scale audit reports and real-world contracts."
-date: 2024-05-01
-venue: "International Conference on Software Engineering (ICSE)"
-paperurl: ""
-citation: "Huang, M., Chen, J., Jiang, Z., & Zheng, Z. (2024). \"Revealing Hidden Threats: An Empirical Study of Library Misuse in Smart Contracts.\" <i>International Conference on Software Engineering (ICSE)</i>."
+collection: "publications"
+permalink: "/publication/2024-05-01-revealing-hidden-threats/"
+redirect_from: ["/publication/2024-05-01-revealing-hidden-threats.html"]
+date: "2024-02-06"
+year: 2024
+venue: "46th IEEE/ACM International Conference on Software Engineering"
+venue_short: "ICSE 2024"
+authors: ["Mingyuan Huang", "Jiachi Chen", "Zigui Jiang", "Zibin Zheng"]
+paperurl: "https://doi.org/10.1145/3597503.3623335"
+excerpt: "An empirical analysis of library misuse in smart contracts and its security implications."
+selected: true
+doi: "10.1145/3597503.3623335"
+bibtex: "@inproceedings{huang2024revealinghiddenthreats,\n  title = {Revealing Hidden Threats: An Empirical Study of Library Misuse in Smart Contracts},\n  author = {Mingyuan Huang and Jiachi Chen and Zigui Jiang and Zibin Zheng},\n  booktitle = {46th IEEE/ACM International Conference on Software Engineering},\n  year = {2024},\n  url = {https://doi.org/10.1145/3597503.3623335},\n  doi = {10.1145/3597503.3623335}\n}"
 ---
 
-This paper presents a large-scale empirical analysis of library misuse in smart contracts, identifying common misuse patterns and their security implications.
+{% include publication-resources.html post=page %}
+
+An empirical analysis of library misuse in smart contracts and its security implications.

@@ -1,0 +1,20 @@
+name: Validate Jekyll site
+on:
+  push:
+    branches: [master]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+      - run: bundle exec jekyll build --trace
+        env:
+          JEKYLL_ENV: production
+      - run: bundle exec ruby scripts/validate_site.rb

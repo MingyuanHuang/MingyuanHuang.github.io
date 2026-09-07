@@ -4,9 +4,12 @@ _site/
 # Ignore the directory for local files during development
 local/
 
-# Ignore the Gemfile that is generated
-Gemfile.lock
+# Keep Gemfile.lock for reproducible local and CI builds
 
 # Ingore files created by npm
 node_modules
 package-lock.json
+.bundle/
+.jekyll-cache/
+.sass-cache/
+.DS_Store

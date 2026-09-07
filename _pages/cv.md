@@ -11,66 +11,44 @@ redirect_from:
 
 # Mingyuan (Eddie) HUANG
 
-**Email:** mhuangbd@connect.ust.hk  
+**Email:** mhuangbd@connect.ust.hk<br>
 
 ---
 
 ## Basic Information
 
-- **English Proficiency:**  
+- **English Proficiency:**<br>
   English (Professional, IELTS 7.0), Chinese (Native)
 
-- **Major Research Skills:**  
+- **Major Research Skills:**<br>
   Smart contract decompilation (Solidity), transaction analysis, audit report analysis, academic paper and technical report writing
 
 ---
 
 ## Education
 
-**The Hong Kong University of Science and Technology (QS Top 50)**  
-PhD in Computer Science, *2025 – Present*  
+**The Hong Kong University of Science and Technology**<br>
+PhD in Computer Science, *2025 – Present*<br>
 Research focus: Smart contract security
 
-**Sun Yat-sen University (985 Project, China)**  
-MPhil in Software Engineering, *2022 – 2025*  
+**Sun Yat-sen University**<br>
+MPhil in Software Engineering, *2022 – 2025*<br>
 Supervisor: Zibin Zheng (IEEE Fellow)
 
-**University of Electronic Science and Technology of China (985)**  
+**University of Electronic Science and Technology of China**<br>
 B.Eng. in Software Engineering (Honors Program), *2018 – 2022*
 
 ---
 
 ## Publications
 
-**Revealing the Dark Side of Smart Accounts: An Empirical Study of EIP-7702 Incurred Risks in Blockchain Ecosystem**  
-First author, *USENIX Security (Accepted)*  
-
-- Cross-contract decompile analysis and transaction analysis  
-- Detected and analyzed three types of EIP-7702 attack strategies, including multiple zero-day cases discovered 15 days earlier than other security teams
-
-**Revealing Hidden Threats: An Empirical Study of Library Misuse in Smart Contracts**  
-First author, *ICSE (CCF-A)*  
-
-- Audit report analysis  
-- Characterized library misuse patterns from real-world audit reports
-
-**Detecting Exploitable Reentrancy Vulnerabilities by Identifying Attacker Contracts**  
-Third author, *ICSE (CCF-A)*  
-
-- Cross-contract decompile analysis and transaction analysis for reentrancy detection
-
-**To Healthier Ethereum: A Comprehensive and Iterative Smart Contract Weakness Enumeration**  
-First student author, *Blockchain: Research and Applications (CAS Q2)*  
-
-- Audit report analysis  
-- Summarized a comprehensive smart contract vulnerability list from audit reports
-
----
+{% assign publications = site.publications | sort: "date" | reverse %}
+{% for post in publications %}{% include publication-card.html post=post compact=true %}{% endfor %}
 
 ## Awards
 
 - National Scholarship, China (2024)
-- First Prize, CCF Service Innovation Competition  
+- First Prize, CCF Service Innovation Competition<br>
   *(Automatic Contract Auditing)*, 2023
 - First Prize Scholarship, Sun Yat-sen University, 2022, 2023
 - Enterprise Scholarship, Zhaolian Bank, 2022
@@ -80,23 +58,23 @@ First student author, *Blockchain: Research and Applications (CAS Q2)*
 
 ## Bug / Attack Reports
 
-- Reported **10 malicious EIP-7702 scam contracts**  
-  https://x.com/deseclab/status/1930550219957317978
-- Discovered **2 customized GPT prompt-leak vulnerabilities**, confirmed by developers  
+- Reported **10 malicious EIP-7702 scam contracts**<br>
+  [Public report](https://x.com/deseclab/status/1930550219957317978)
+- Discovered **2 customized GPT prompt-leak vulnerabilities**, confirmed by developers<br>
   - One prompt protection suggestion adopted by a developer
 
 ---
 
 ## Internship Experience
 
-**WeBank, Distributed Systems Department**  
-*03/2022 – 06/2022*  
+**WeBank, Distributed Systems Department**<br>
+*03/2022 – 06/2022*<br>
 
-- Blockchain security research  
+- Blockchain security research<br>
 - Resulted in a patent related to smart contract upgrade verification
 
-**Institute for Cyber Security, UESTC**  
-*10/2020 – 03/2022*  
+**Institute for Cyber Security, UESTC**<br>
+*10/2020 – 03/2022*<br>
 
 - Academic research training
 
