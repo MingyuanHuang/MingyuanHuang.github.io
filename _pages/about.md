@@ -14,7 +14,7 @@ I am a PhD student in Computer Science at **The Hong Kong University of Science 
 
 Before joining HKUST, I received my MPhil in Software Engineering from **Sun Yat-sen University**, advised by Prof. Zibin Zheng (IEEE Fellow), and my B.Eng. in Software Engineering through the Honors Program at the **University of Electronic Science and Technology of China (UESTC)**. I was awarded China’s **National Scholarship in 2024**.
 
-Beyond academic research, I have a longstanding interest in building practical financial technologies. During my undergraduate studies at UESTC, I served as **Student President of the UESTC–ANZ Joint Lab**, a student-led studio focused on fintech development. I am now co-founding a **cryptocurrency quantitative trading team**. As an **[EthHub member](https://www.ethhkhub.com/)**, I also contribute to Hong Kong’s crypto community through nonprofit crypto security research and quantitative trading training.
+Beyond academic research, I have a longstanding interest in building practical financial technologies. During my undergraduate studies at UESTC, I served as **Student President of the UESTC–ANZ Joint Lab**, a student-led studio focused on fintech development. I am now co-founding a **cryptocurrency quantitative trading team**. As an **[EthHub member](https://x.com/ethereumhkhub/status/2056703883125338620)**, I also contribute to Hong Kong’s crypto community through nonprofit crypto security research and quantitative trading training.
 
 <div class="research-topics" aria-label="Research interests"><span>Smart contract security</span><span>Blockchain systems</span><span>Software engineering</span></div>
 
