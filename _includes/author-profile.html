@@ -10,7 +10,7 @@
     {% if author.avatar contains "://" %}
       <img src="{{ author.avatar }}" alt="{{ author.name }}">
     {% else %}
-      <img decoding="async" src="{{ author.avatar | prepend: "/images/" | relative_url }}" class="author__avatar" width="156" height="156" alt="{{ author.name }}">
+      <img decoding="async" src="{{ author.avatar | prepend: "/images/" | relative_url }}" class="author__avatar" width="1023" height="1537" alt="{{ author.name }}">
     {% endif %}
   </div>
 
