@@ -1,12 +1,12 @@
 /* Personal academic theme. Keep overrides separate from the upstream theme. */
-html { font-size: 17px; background: #fafbf9; }
-body { color: #263641; background: #fafbf9; padding: 0; margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.75; }
+html { font-size: 17px; background: #fff; }
+body { color: #263641; background: #fff; padding: 0; margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.75; }
 a { transition: color .15s ease; color: #17645d; text-underline-offset: 3px; }
 a:hover { color: #103f3b; }
 a:focus-visible, summary:focus-visible { outline: 3px solid #bd7028; outline-offset: 5px; border-radius: 2px; }
 .skip-link { position: fixed; top: -100px; left: 16px; z-index: 1000; padding: 12px 20px; background: #fff; }
 .skip-link:focus { top: 12px; }
-.masthead { position: relative; background: #fafbf9; border-bottom: 1px solid #dde3df; height: auto; animation: none; }
+.masthead { position: relative; background: #fff; border-bottom: 1px solid #dde3df; height: auto; animation: none; }
 .masthead__inner-wrap { max-width: 1120px; padding: 22px 32px; }
 .academic-nav { display: flex; align-items: center; justify-content: space-between; gap: 24px; }
 .academic-nav .site-name { color: #223c4b; font-weight: 700; font-size: 18px; letter-spacing: -.4px; }
@@ -53,7 +53,7 @@ a:focus-visible, summary:focus-visible { outline: 3px solid #bd7028; outline-off
 .bibtex summary { cursor: pointer; color: #17645d; padding: 3px 0; }
 .bibtex pre { margin: 12px 0 0; max-width: 100%; white-space: pre-wrap; overflow-wrap: anywhere; padding: 16px; font-size: 13px; background: #edf1ed; color: #263641; border: 1px solid #d7e1dc; border-radius: 4px; }
 .publication .publication-summary { color: #63716e; font-size: 15px; line-height: 1.7; margin: 12px 0 0; }
-.page__footer { float: none; position: static; margin: 0; background: #f0f3ee; border-top: 1px solid #dde3df; animation: none; }
+.page__footer { float: none; position: static; margin: 0; background: #fff; border-top: 1px solid #dde3df; animation: none; }
 .page__footer footer { max-width: 1120px; padding: 24px 32px; margin: 0 auto; font-size: 14px; }
 .page__footer-copyright { font-size: 13px; line-height: 1.7; }
 @media (max-width: 800px) {
