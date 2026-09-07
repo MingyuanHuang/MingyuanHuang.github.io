@@ -12,3 +12,17 @@ Citation counts are intentionally not copied because they change frequently.
 - ICC 2022: [publisher DOI](https://doi.org/10.1109/ICC45855.2022.9838252). Full author names and publication date checked against Crossref.
 
 Existing publication permalinks are preserved, even when corrected publication dates differ from their path names. Preprint PDFs are not represented as publisher PDFs.
+
+## Biography and community updates (2026-09-07)
+
+The owner supplied and approved the UESTC–ANZ Joint Lab leadership description,
+quantitative trading team co-founding, EthHub membership, and nonprofit security
+research / quantitative trading training in Hong Kong. These are biographical
+statements from the owner, not claims of independent media verification.
+
+The News entry links to the [official ETH HK Hub recap](https://x.com/ethereumhkhub/status/2056703883125338620),
+posted on May 19, 2026. The post describes DeSECLab/HKUST's Agent-Native secure OS
+architecture, trusted execution services, zero-knowledge proofs, private-key
+protection, and safe capital deployment. The [thread introduction](https://x.com/ethereumhkhub/status/2056703874233495555)
+identifies the meetup's focus as AI agents in Web3. The News entry uses May 2026
+as the recap month; it does not claim May 19 was the event date.

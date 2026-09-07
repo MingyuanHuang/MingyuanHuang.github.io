@@ -70,7 +70,7 @@ B.Eng. in Software Engineering (Honors Program), *2018 – 2022*
 
 ## Other Experience
 
-- Student President, UESTC – ANZ Bank Joint Lab
+- Student President, UESTC–ANZ Joint Lab — a student-led studio focused on fintech development
 - Participant, 2021 Summer School, University of Texas at Austin
 - Champion, UESTC Freshman Debate Competition
 
