@@ -27,6 +27,10 @@ Previously, I received my MPhil in Software Engineering from Sun Yat-sen Univers
 
 [All publications →]({{ '/publications/' | relative_url }})
 
+{% include awards.md %}
+
+{% include bug-reports.md %}
+
 ## Experience
 
 **WeBank · Distributed Systems Department**<br>

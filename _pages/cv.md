@@ -45,23 +45,11 @@ B.Eng. in Software Engineering (Honors Program), *2018 – 2022*
 {% assign publications = site.publications | sort: "date" | reverse %}
 {% for post in publications %}{% include publication-card.html post=post compact=true %}{% endfor %}
 
-## Awards
-
-- National Scholarship, China (2024)
-- First Prize, CCF Service Innovation Competition<br>
-  *(Automatic Contract Auditing)*, 2023
-- First Prize Scholarship, Sun Yat-sen University, 2022, 2023
-- Enterprise Scholarship, Zhaolian Bank, 2022
-- Graduate Academic Scholarship, UESTC; Others (Earlier)
+{% include awards.md %}
 
 ---
 
-## Bug / Attack Reports
-
-- Reported **10 malicious EIP-7702 scam contracts**<br>
-  [Public report](https://x.com/deseclab/status/1930550219957317978)
-- Discovered **2 customized GPT prompt-leak vulnerabilities**, confirmed by developers<br>
-  - One prompt protection suggestion adopted by a developer
+{% include bug-reports.md %}
 
 ---
 
