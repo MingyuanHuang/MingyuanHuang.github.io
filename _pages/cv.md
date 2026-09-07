@@ -33,7 +33,7 @@ Research focus: Smart contract security
 
 **Sun Yat-sen University**<br>
 MPhil in Software Engineering, *2022 – 2025*<br>
-Supervisor: Zibin Zheng (IEEE Fellow)
+Supervisor: [Zibin Zheng](https://sse.sysu.edu.cn/node/100) (IEEE Fellow)
 
 **University of Electronic Science and Technology of China**<br>
 B.Eng. in Software Engineering (Honors Program), *2018 – 2022*
