@@ -1,12 +1,12 @@
 /* Personal academic theme. Keep overrides separate from the upstream theme. */
 html { font-size: 17px; background: #fafbf9; }
 body { color: #263641; background: #fafbf9; padding: 0; margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.75; }
-a { color: #17645d; text-underline-offset: 3px; }
+a { transition: color .15s ease; color: #17645d; text-underline-offset: 3px; }
 a:hover { color: #103f3b; }
 a:focus-visible, summary:focus-visible { outline: 3px solid #bd7028; outline-offset: 5px; border-radius: 2px; }
 .skip-link { position: fixed; top: -100px; left: 16px; z-index: 1000; padding: 12px 20px; background: #fff; }
 .skip-link:focus { top: 12px; }
-.masthead { position: relative; background: #fafbf9; border-bottom: 1px solid #dde3df; height: auto; }
+.masthead { position: relative; background: #fafbf9; border-bottom: 1px solid #dde3df; height: auto; animation: none; }
 .masthead__inner-wrap { max-width: 1120px; padding: 22px 32px; }
 .academic-nav { display: flex; align-items: center; justify-content: space-between; gap: 24px; }
 .academic-nav .site-name { color: #223c4b; font-weight: 700; font-size: 18px; letter-spacing: -.4px; }
@@ -16,17 +16,17 @@ a:focus-visible, summary:focus-visible { outline: 3px solid #bd7028; outline-off
 .academic-nav a[aria-current] { color: #223c4b; text-decoration: underline; text-decoration-color: #17645d; text-decoration-thickness: 2px; text-underline-offset: 8px; }
 #main { display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 64px; max-width: 1120px; margin: 0 auto; padding: 64px 32px; animation: none; }
 #main::after, #main::before { display: none; }
-#main > .sidebar { position: static; transform: none; width: auto; height: auto; max-width: none; margin: 0; padding: 0; overflow: visible; float: none; }
+#main > .sidebar { position: static; transform: none; width: auto; height: auto; max-width: none; margin: 0; padding: 0; overflow: visible; float: none; min-width: 0; }
 #main > .page, #main > .archive { float: none; width: auto; min-width: 0; margin: 0; padding: 0; }
 .sidebar .author__avatar { display: block; width: 156px; }
-.sidebar .author__avatar img { width: 156px; height: 156px; object-fit: cover; border-radius: 16px; padding: 0; border: 0; }
+.sidebar .author__avatar img { width: 156px; height: 156px; object-fit: cover; object-position: center 35%; border-radius: 16px; padding: 0; border: 0; transition: none; }
 .sidebar .author__content { display: block; padding: 0; }
 .sidebar .author__name { margin: 22px 0 8px; color: #223c4b; font-size: 21px; }
 .sidebar .author__bio { font-size: 14px; line-height: 1.7; color: #52616a; }
 .sidebar .author__urls-wrapper { display: block; position: static; }
-.sidebar .author__urls { display: block !important; position: static; background: transparent; box-shadow: none; border: 0; padding: 10px 0; margin: 0; white-space: normal; }
+.sidebar .author__urls { display: block !important; position: static; background: transparent; box-shadow: none; border: 0; padding: 10px 0; margin: 0; white-space: normal; max-width: 100%; z-index: auto; }
 .sidebar .author__urls::before, .sidebar .author__urls::after { display: none; }
-.sidebar .author__urls li { display: block; font-size: 14px; margin: 6px 0; }
+.sidebar .author__urls li { display: block; font-size: 14px; margin: 6px 0; white-space: normal; overflow-wrap: anywhere; }
 .sidebar .author__urls a { padding: 4px 0; }
 .page__title { color: #223c4b; font-family: Georgia, "Times New Roman", serif; font-size: clamp(30px, 4vw, 44px); font-weight: 400; line-height: 1.22; letter-spacing: -1px; margin-bottom: 20px; overflow-wrap: anywhere; }
 .page__content h2, .archive h2 { color: #223c4b; margin: 44px 0 20px; padding-bottom: 12px; font-size: 23px; font-weight: 600; border-bottom: 1px solid #dde3df; }
