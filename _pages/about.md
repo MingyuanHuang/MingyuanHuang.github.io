@@ -16,6 +16,15 @@ Before joining HKUST, I received my MPhil in Software Engineering from **Sun Yat
 
 Beyond academic research, I have a longstanding interest in building practical financial technologies. During my undergraduate studies at UESTC, I served as **Student President of the UESTC–ANZ Joint Lab**, a student-led studio focused on fintech development. I am now co-founding a **cryptocurrency quantitative trading team**. As an **[EthHub member](https://x.com/ethereumhkhub/status/2056703883125338620)**, I also contribute to Hong Kong’s crypto community through nonprofit crypto security research and quantitative trading training.
 
+<nav class="section-nav" aria-label="On this page">
+  <a href="#news">News</a>
+  <a href="#selected-publications">Publications</a>
+  <a href="#awards">Awards</a>
+  <a href="#bug--attack-reports">Bug / Attack Reports</a>
+  <a href="#experience">Experience</a>
+  <a href="#contact">Contact</a>
+</nav>
+
 ## News
 
 <div class="research-update"><span class="update-label">USENIX Security 2026</span><p>Our paper on the security risks of EIP-7702 smart accounts is now available.</p><a href="{{ '/publication/2026-08-12-smart-accounts/' | relative_url }}">Read the paper <span aria-hidden="true">→</span></a></div>
