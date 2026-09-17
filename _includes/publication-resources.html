@@ -1,8 +1,8 @@
 {% assign pub = include.post %}
 <p class="publication-authors">{% for name in pub.authors %}{% if name == site.author.name %}<strong>{{ name }}</strong>{% else %}{{ name }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
 <div class="publication-links">
-  <a href="{{ pub.paperurl }}" aria-label="Paper: {{ pub.title | escape }}">Paper <span aria-hidden="true">↗</span></a>
+  <a href="{{ pub.paperurl }}" aria-label="Paper: {{ pub.title | escape }}">{% if page.lang == "zh-CN" %}论文{% else %}Paper{% endif %} <span aria-hidden="true">↗</span></a>
   {% if pub.pdf %}<a href="{{ pub.pdf }}" aria-label="PDF: {{ pub.title | escape }}">PDF <span aria-hidden="true">↗</span></a>{% endif %}
-  {% if pub.artifact %}<a href="{{ pub.artifact }}" aria-label="Code and data: {{ pub.title | escape }}">Code &amp; data <span aria-hidden="true">↗</span></a>{% endif %}
+  {% if pub.artifact %}<a href="{{ pub.artifact }}" aria-label="Code and data: {{ pub.title | escape }}">{% if page.lang == "zh-CN" %}代码与数据{% else %}Code &amp; data{% endif %} <span aria-hidden="true">↗</span></a>{% endif %}
   <details class="bibtex"><summary aria-label="BibTeX citation: {{ pub.title | escape }}">BibTeX</summary><pre><code>{{ pub.bibtex | escape }}</code></pre></details>
 </div>

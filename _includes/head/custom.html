@@ -30,3 +30,8 @@
 {% endif %}
 
 <!-- end custom head snippets -->
+
+{% if page.url == '/' or page.url == '/zh/' %}
+<link rel="alternate" hreflang="en" href="{{ '/' | absolute_url }}">
+<link rel="alternate" hreflang="zh-CN" href="{{ '/zh/' | absolute_url }}">
+{% endif %}
