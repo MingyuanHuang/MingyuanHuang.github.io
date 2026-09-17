@@ -36,3 +36,5 @@ The article body was not accessible during this update. The English description
 owner-provided name; it is not presented as an independently verified official
 English award title. No unverified award date is added. Tracking parameters are
 omitted from the public link. Both homepage and CV use the shared awards include.
+
+- 2026-09-17: User confirmed they founded Blockspace Hub and its members come from HKU, CUHK, and HKUST. Added the supplied community link: https://hkquant.vercel.app/hub. This describes member backgrounds, not institutional affiliation or endorsement.
